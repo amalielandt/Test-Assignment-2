@@ -45,7 +45,7 @@ However, problems began to occur when the software attempted to stuff this 64-bi
 <i>Complete the following using TDD. Remember the TDD mantra.</i>
 
 ### 2.1 STRING UTILITY
-<i>Use TDD to create a string utility with the following methods:</i>
+<i>Use TDD to create a string utility with the following methods:</i> \n
 <i>Reverse string (aBc -> cBa), Capitalize string (aBc -> ABC), Lowercase string (aBc -> abc)</i>
 
 * The solution for this katas can be found in the files [StringConverter](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/main/java/dk/sal/test/assignment2/StringConverter.java) and [ConverterTest](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/test/java/dk/sal/test/assignment2/ConverterTest.java)
