@@ -50,13 +50,10 @@ However, problems began to occur when the software attempted to stuff this 64-bi
 * Capitalize string (aBc -> ABC)
 * Lowercase string (aBc -> abc)
 
-Don’t use any built-in string utility – create your own. Remember, the exercise here is to
-use TDD, not to deliver a working utility without tests. If there are no tests in the
-solution, it won’t be accepted.
+* The solution for this katas can be found in the files [StringConverter](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/main/java/dk/sal/test/assignment2/StringConverter.java) and [ConverterTest](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/test/java/dk/sal/test/assignment2/BowlingGameTest.java)
 
 ### 2.2 BOWLING GAME KATA
-Complete the Bowling Game Kata using TDD. The slides can be found here: 
-http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt
+* The solution for this kata can be found in the files [Game](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/main/java/dk/sal/test/assignment2/bowlinggame/Game.java) and [BowlingGameTest](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/test/java/dk/sal/test/assignment2/BowlingGameTest.java)
 
 ## 3 INVESTIGATION OF TOOLS
 ### 3.1 JUNIT 5
