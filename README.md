@@ -3,7 +3,7 @@ Made by Amalie Landt
 
 ## 1 REFLECTIONS
 ### 1.1 COMPUTER MOUSE
-### Identify the types of testing you would perform on a computer mouse, to make sure that it is of the highest quality.
+<i>Identify the types of testing you would perform on a computer mouse, to make sure that it is of the highest quality.</i>
 
 #### Functional Testing
 * Clicking all the buttons on the mouse to test weather it does what i is intended to do, and if it does not do what it is not intended to
@@ -31,7 +31,7 @@ Made by Amalie Landt
 * For a computer mouse this would mean doing all of the above tests everytime new functionality is added to the mouse 
 
 ### 1.2 CATASTROPHIC FAILURE
-### Find a story where a software system defect had a bad outcome. Describe what happened. Can you identify a test that would have prevented it?
+<i>Find a story where a software system defect had a bad outcome. Describe what happened. Can you identify a test that would have prevented it?</i>
 
 On June 4th, 1996, the very first Ariane 5 rocket ignited its engines and began speeding away from the coast of French Guiana. 37 seconds later, the rocket flipped 90 degrees in the wrong direction, and less than two seconds later, aerodynamic forces ripped the boosters apart from the main stage at a height of 4km. This caused the self-destruct mechanism to trigger, and the spacecraft was consumed in a gigantic fireball of liquid hydrogen. The disastrous launch cost approximately $370m, led to a public inquiry, and through the destruction of the rocket’s payload, delayed scientific research into workings of the Earth’s magnetosphere for almost 4 years. The Ariane 5 launch is widely acknowledged as one of the most expensive software failures in history.
 
@@ -42,22 +42,21 @@ However, problems began to occur when the software attempted to stuff this 64-bi
 * This could have been avoided by doing a unit performance test on the algorithm that converted the 64-bit variable to a 16-bit integer, like a stress test were the acceleration would be increased beyond normal, to test how it would respond
 
 ## 2 TWO KATAS
-### Complete the following using TDD. Remember the TDD mantra.
+<i>Complete the following using TDD. Remember the TDD mantra.</i>
 
 ### 2.1 STRING UTILITY
-### Use TDD to create a string utility with the following methods:
-* Reverse string (aBc -> cBa)
-* Capitalize string (aBc -> ABC)
-* Lowercase string (aBc -> abc)
+<i>Use TDD to create a string utility with the following methods:</i>
+<i> Reverse string (aBc -> cBa), Capitalize string (aBc -> ABC), Lowercase string (aBc -> abc)</i>
 
-* The solution for this katas can be found in the files [StringConverter](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/main/java/dk/sal/test/assignment2/StringConverter.java) and [ConverterTest](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/test/java/dk/sal/test/assignment2/BowlingGameTest.java)
+* The solution for this katas can be found in the files [StringConverter](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/main/java/dk/sal/test/assignment2/StringConverter.java) and [ConverterTest](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/test/java/dk/sal/test/assignment2/ConverterTest.java)
 
 ### 2.2 BOWLING GAME KATA
+<i>Complete the Bowling Game Kata using TDD.</i>
 * The solution for this kata can be found in the files [Game](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/main/java/dk/sal/test/assignment2/bowlinggame/Game.java) and [BowlingGameTest](https://github.com/amalielandt/Test-Assignment-2/blob/main/assignment2/src/test/java/dk/sal/test/assignment2/BowlingGameTest.java)
 
 ## 3 INVESTIGATION OF TOOLS
 ### 3.1 JUNIT 5
-### Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.
+<i>Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful.</i>
 #### @Tag
 * This can be used to filter testcases from test plans. It can help in create multiple different test plans for different environments, different use-cases or any specific requirement. You can execute set of tests by including only those tagged tests in test plan OR by excluding other tests from test plan.
 
@@ -89,7 +88,7 @@ However, problems began to occur when the software attempted to stuff this 64-bi
 * Assumptions are typically used whenever it does not make sense to continue execution of a given test method — for example, if the test depends on something that does not exist in the current runtime environment.
 
 ### 3.2 MOCKING FRAMEWORKS
-### Investigate mocking frameworks for your preferred language. 
+<i>Investigate mocking frameworks for your preferred language.</i>
 ### Choose at least two frameworks, and answer the questions. (One could be Mockito, which we saw in class.)
 
 I have choosen to look at the mocking frameworks Mockito and JMockit.
